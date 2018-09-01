@@ -1,0 +1,9 @@
+[user]
+	name = Trevor Svec
+	email = tsvec5678@gmail.com
+[push]
+	default = simple
+[log]
+	decorate = auto
+[color]
+	ui = auto
