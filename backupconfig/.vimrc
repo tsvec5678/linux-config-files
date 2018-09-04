@@ -1,5 +1,7 @@
 "this is a vim comment
 "use these to help describe your vim settings
+"symbolic link working properly
+"confirmed that symbolic link works
 "bash script even works from running it outside of repo dir
 execute pathogen#infect()
 runtime bundle/vim-pathogen/autoload/pathogen.vim
@@ -14,7 +16,19 @@ set shiftwidth=4
 set expandtab
 
 
-set rtp+=/home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+"user install for VIM
+"set rtp+=/home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+
+"global install for vim, STICK TO USER
 "set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+
+"test overwrite symlink
+
+"symlink copy
+
+"test force symlink overwrite
+
 set laststatus=2
 set t_Co=256
