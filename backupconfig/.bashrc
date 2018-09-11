@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 
-
+export PATH=$PATH:$HOME/tsvec5678/.local/bin
 export PATH=$PATH:$HOME/Library/Python/2.7/bin
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
@@ -126,6 +126,7 @@ POWERLINE_BASH_SELECT=1
 
 export TERM="screen-256color"
 
-#export PS1='\u@\h: \W'
+#export PS1='\u@\h: \W:'
 
 LS_COLORS=$LS_COLORS:'fi=0;36:di=0;92:ln=4;95:' ; export LS_COLORS
+
