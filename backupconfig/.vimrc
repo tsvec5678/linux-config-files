@@ -9,7 +9,7 @@ syntax on
 filetype plugin indent on
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
@@ -28,7 +28,7 @@ set expandtab
 
 
 "user install for VIM
-set rtp+=/home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/vim
+"set rtp+=/home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/vim
 
 
 "global install for vim, STICK TO USER
