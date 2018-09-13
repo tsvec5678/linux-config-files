@@ -4,9 +4,20 @@
 "confirmed that symbolic link works
 "bash script even works from running it outside of repo dir
 execute pathogen#infect()
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+"runtime /autoload/pathogen.vim
 syntax on
 filetype plugin indent on
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['jshint']
+
 
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -30,5 +41,6 @@ set rtp+=/home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/v
 
 "test force symlink overwrite
 
+set number
 set laststatus=2
 set t_Co=256
