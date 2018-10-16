@@ -119,6 +119,7 @@ fi
 
 export PATH=$PATH:$HOME/tsvec5678/.local/bin
 export PATH=$PATH:$HOME/Library/Python/2.7/bin
+export PATH=$PATH:/usr/local/go/bin
 #powerline-daemon -q
 #POWERLINE_BASH_CONTINUATION=1
 #POWERLINE_BASH_SELECT=1
