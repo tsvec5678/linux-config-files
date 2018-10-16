@@ -2,7 +2,7 @@
 #repo name: linux-config-file
 #create symlinks FROM home directory TO where you clone your config repository
 
-ABSPATH="$(dirname $(pwd))/redhat"
+ABSPATH="$(dirname $(pwd))/linux-config-files"
 
 echo "installing symlinks from home dir to config files in"
 echo " -> $ABSPATH"
