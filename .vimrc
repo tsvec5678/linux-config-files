@@ -3,9 +3,15 @@
 "symbolic link working properly
 "confirmed that symbolic link works
 "bash script even works from running it outside of repo dir
+
+
 execute pathogen#infect()
 "runtime /autoload/pathogen.vim
 syntax on
+
+"sets all comment colors to 207 (on xterm 0-255 color scale)
+hi comment ctermfg=207
+
 filetype plugin indent on
 
 set statusline+=%#warningmsg#
@@ -30,17 +36,10 @@ set expandtab
 "user install for VIM
 "set rtp+=/home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/vim
 
-
 "global install for vim, STICK TO USER
 "set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim/
-
-
-"test overwrite symlink
-
-"symlink copy
-
-"test force symlink overwrite
 
 set number
 set laststatus=2
 set t_Co=256
+
