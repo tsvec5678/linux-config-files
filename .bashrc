@@ -120,15 +120,7 @@ fi
 export PATH=$PATH:$HOME/tsvec5678/.local/bin
 export PATH=$PATH:$HOME/Library/Python/2.7/bin
 export PATH=$PATH:/usr/local/go/bin
-#powerline-daemon -q
-#POWERLINE_BASH_CONTINUATION=1
-#POWERLINE_BASH_SELECT=1
-#. /home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 
 export TERM="screen-256color"
-
 export LS_COLORS='fi=0;36:di=0;92:ln=4;95:'
-#export PS1='\e[96m\u@\e[96m\h:\e[97m\W$ '
 export PS1='${debian_chroot:+($debian_chroot)}\[\033[96m\]\u@\h\[\033[00m\]:\[\033[01;97m\]\W\[\033[00m\]\$ '
-
-
