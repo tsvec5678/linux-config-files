@@ -36,6 +36,7 @@ set shiftwidth=4
 " on pressing tab, insert 4 spaces
 set expandtab
 
+set tags=./tags,tags;$HOME
 
 "user install for VIM
 "set rtp+=/home/tsvec5678/.local/lib/python2.7/site-packages/powerline/bindings/vim
