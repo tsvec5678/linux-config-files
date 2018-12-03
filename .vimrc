@@ -11,6 +11,8 @@ syntax on
 
 let mapleader=";"
 
+colo slate
+
 "sets all comment colors to 207 (on xterm 0-255 color scale)
 "BRIGHT_PINK=207
 hi comment ctermfg=207
