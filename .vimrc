@@ -8,14 +8,15 @@
 execute pathogen#infect()
 "runtime /autoload/pathogen.vim
 syntax on
+"syntax enable
+
+colorscheme atom-dark-256
 
 let mapleader=";"
 
-colo slate
-
 "sets all comment colors to 207 (on xterm 0-255 color scale)
-"BRIGHT_PINK=207
-hi comment ctermfg=207
+"SALMON_PINK=218
+hi comment ctermfg=218
 
 set autoindent
 filetype plugin indent on
