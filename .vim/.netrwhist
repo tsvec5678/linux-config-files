@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/tsvec5678/Documents/appmyproduct-device-stub/src'
 let g:netrw_dirhist_2='/home/tsvec5678/Documents/unabto/apps/tunnel/src/tunnel_library'
+let g:netrw_dirhist_3='/home/tsvec5678/Documents/linux-config-files/.git'
+let g:netrw_dirhist_4='/home/tsvec5678/Documents/linux-config-files/.repoconfig'
+let g:netrw_dirhist_5='/home/tsvec5678/Documents/linux-config-files/.repoconfig/gnupg'
