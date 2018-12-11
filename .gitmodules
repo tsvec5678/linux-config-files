@@ -1,0 +1,18 @@
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/vim-airline"]
+	path = .vim/bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-erlang-compiler"]
+	path = .vim/bundle/vim-erlang-compiler
+	url = git@github.com:vim-erlang/vim-erlang-compiler.git
+[submodule ".vim/bundle/vim-erlang-skeletons"]
+	path = .vim/bundle/vim-erlang-skeletons
+	url = git@github.com:marutha/vim-erlang-skeletons.git
+[submodule ".vim/bundle/vim-tmux-navigator"]
+	path = .vim/bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
