@@ -22,7 +22,7 @@ set autoindent
 filetype plugin indent on
 
 set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
