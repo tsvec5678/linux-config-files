@@ -5,6 +5,7 @@
 "bash script even works from running it outside of repo dir
 
 
+let g:pathogen_disabled = ['vim-erlang-skeletons']
 execute pathogen#infect()
 "runtime /autoload/pathogen.vim
 syntax on
