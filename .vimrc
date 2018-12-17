@@ -15,6 +15,12 @@ colorscheme atom-dark-256
 
 let mapleader=";"
 
+" highlight search results
+set hlsearch
+
+" starts searching while you are typing
+set incsearch
+
 "sets all comment colors to 207 (on xterm 0-255 color scale)
 "SALMON_PINK=218
 hi comment ctermfg=218
