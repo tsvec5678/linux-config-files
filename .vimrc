@@ -21,6 +21,12 @@ set hlsearch
 " starts searching while you are typing
 set incsearch
 
+" no annoying sound on errors
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+
 "sets all comment colors to 207 (on xterm 0-255 color scale)
 "SALMON_PINK=218
 hi comment ctermfg=218
