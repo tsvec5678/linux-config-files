@@ -123,7 +123,12 @@ export PATH=$PATH:/usr/local/go/bin
 
 export TERM="screen-256color"
 export LS_COLORS='fi=0;36:di=0;92:ln=4;95:'
-export PS1='${debian_chroot:+($debian_chroot)}\[\033[96m\]\u@\h\[\033[00m\]:\[\033[01;97m\]\W\[\033[00m\]\$ '
+
+# user@host:$ settings for bash prompt
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[1;37m\]\u@\h\[\033[00m\]:\[\033[1;96m\]\w\[\033[00m\]\$ '
+
+#export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
 
 #export CLICOLOR=1
 #export LSCOLORS=ExFxBxDxCxegedabagacad
