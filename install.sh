@@ -9,6 +9,9 @@ echo " -> $ABSPATH"
 [ -f "/home/$USER/.bashrc" ] && rm "/home/$USER/.bashrc"
 ln -f -s "$ABSPATH/.bashrc" "/home/$USER/.bashrc"
 
+[ -f "/home/$USER/.dircolors" ] && rm "/home/$USER/.dircolors"
+ln -f -s "$ABSPATH/dircolors.256dark" "/home/$USER/.dircolors"
+
 [ -f "/home/$USER/.gitconfig" ] && rm "/home/$USER/.gitconfig"
 ln -f -s "$ABSPATH/.gitconfig" "/home/$USER/.gitconfig"
 
@@ -21,4 +24,4 @@ ln -f -s "$ABSPATH/.vimrc" "/home/$USER/.vimrc"
 [ -d "/home/$USER/.vim" ] && rm -rf "/home/$USER/.vim"
 ln -f -s "$ABSPATH/.vim" "/home/$USER/.vim"
 
-echo "symlinks installed"
+echo "config files installed"
