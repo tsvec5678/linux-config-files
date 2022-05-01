@@ -27,6 +27,8 @@ set novisualbell
 set t_vb=
 set tm=500
 
+set tabpagemax=100
+
 "sets all comment colors to 207 (on xterm 0-255 color scale)
 "SALMON_PINK=218
 hi comment ctermfg=218
